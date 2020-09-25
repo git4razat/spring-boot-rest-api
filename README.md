@@ -1,2 +1,2 @@
 # spring-boot-rest-api
-Spring Boot Api for Rest APIs
+Spring Boot Application for Rest APIs
