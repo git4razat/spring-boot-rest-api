@@ -1,0 +1,26 @@
+##Docker Login
+
+docker login
+
+##Build Local Docker Image
+
+docker build -t spring-boot-rest-api .
+
+##Check Local Docker Images
+
+DOCKER IMAGES
+
+##Create/Tag a new image or change
+
+docker tag spring-boot-rest-api razatg/spring-boot-rest-api
+
+##Push to docker hub
+
+docker push razatg/spring-boot-rest-api
+
+## Remove local images
+docker rmi spring-boot-rest-api razatg/spring-boot-rest-api
+
+## Pull Docker IMage and run it
+docker run -p 8080:8080 razatg/spring-boot-rest-api 
+
