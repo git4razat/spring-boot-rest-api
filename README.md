@@ -7,6 +7,11 @@ Steps to Build and Run
 mvn clean install
 java -jar target/spring-boot-rest-api.jar
 
+Alternatively can be executed via docker image
+==============
+
+docker run -p 8080:8080 razatg/spring-boot-rest-api
+
 API End Points
 ==============
 
